@@ -1,0 +1,32 @@
+@media(max-width: 800px) {
+    .container {
+        width: 800px;
+
+    }
+
+    .menu {
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+
+    .menu .logo {
+        padding-bottom: 20px;
+    }
+
+    #moto {
+        display: block;
+    }
+
+    #moto .btn {
+        margin-bottom: 30px;
+    }
+
+    #moto .right-side {
+        display: none;
+    }
+
+    .content .top .features {
+        margin-right: 20px;
+    }
+}
