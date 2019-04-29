@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu ul {
+    display: flex;
+    flex: 1;
+}
+
+.menu ul li {
+    flex: 1;
+}
+
+.logo {
+    margin-top: -8px;
+}
+
+
+.services-header-img {
+    width: 100%;
+}
+
+.services {
+    margin-top: 30px;
+}
+
+.services h2 {
+    font-size: 44px;
+}
+
+.services p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid gray;
+    margin: 30px 0;
+}
+
+.inner {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.inner .digital {
+    background: whitesmoke;
+    width: 440px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
+.button {
+    width: 190px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.reasons {
+    width: 450px;
+}
+
+.reasons img {
+    width: 100%;
+}
+
+.reasons ul {
+    margin: 20px;
+    line-height: 1.5;
+
+}
+
+footer {
+    margin-top: 90px;
+    text-align: center;
+}

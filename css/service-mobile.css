@@ -1,0 +1,48 @@
+@media(max-width: 500px) {
+    .container {
+        width: 470px;
+    }
+
+    .menu {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .menu ul {
+        display: block;
+    }
+
+    .menu ul li {
+        padding: 10px;
+        margin-top: 10px;
+        border-top: 1px solid gray;
+    }
+
+    .lin {
+        height: 1px;
+        width: 100%;
+        border-bottom: 1px solid gray;
+
+        margin-top: 10px;
+    }
+
+    .logo {
+        margin-bottom: -15px;
+    }
+
+    .services-header-img {
+        display: none;
+    }
+
+    .inner .digital {
+        width: 95%;
+    }
+
+    .facts {
+        display: block;
+    }
+
+    .facts .reasons {
+        display: none;
+    }
+}
