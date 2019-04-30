@@ -1,0 +1,46 @@
+@media(max-width: 500px) {
+    .container {
+        width: 400px;
+        display: block;
+        overflow: hidden;
+
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .menu ul {
+        display: block;
+        margin-top: -30px;
+
+    }
+
+    .menu ul li {
+        padding: 15px 0;
+        border-top: 1px solid #a0a0a0;
+    }
+
+    .top {
+        display: block;
+    }
+
+    .top .features p {
+        padding-bottom: 30px;
+    }
+
+    .bottom {
+        display: block;
+    }
+
+    .bottom p {
+        padding-bottom: 30px;
+    }
+
+    .menu .lin {
+        height: 1px;
+        width: 100%;
+        border-bottom: 1px solid #a0a0a0;
+    }
+
+}
